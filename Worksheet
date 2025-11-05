@@ -1,0 +1,186 @@
+1. What is the output of the following code?
+
+x = 10
+y = 10
+print(x == y)
+print(x != y)
+
+True
+False
+
+
+2.What is the output of the following code?
+
+a = "5"
+b = "10"
+print(a + b)
+
+510 
+
+3. What is the output of the following code?
+score = 77
+if score > 80:
+    print("Perfect")
+elif score > 70:
+    print("Good")
+else:
+    print("Bad")
+
+Good
+
+
+4.What is the output of the following code?
+
+num= 15
+if num > 5:
+    print("A")
+if num > 10:
+    print("B")
+else:
+    print("C")
+
+A B
+
+5. What is the output of the following code?
+
+x = True
+y = False
+z = True
+print( (x or y) and (not z) )
+False 
+
+6.According to the code block and table below, which users will receive the "Login Successful" output?
+
+if age > 18 or vip_member == True:
+  print("Login Successful")
+else:
+  print("Login Denied")
+
+Ahmet
+20
+False
+Mehmet
+17
+True
+Zeynep
+16
+False
+
+
+Mehmet and Ahmet 
+
+
+
+
+
+
+
+7. Fill in the blank in the if line that checks whether a number entered from the keyboard is greater than 0 and less than 100.
+
+number = int(input("enter a number: "))
+if number > 0 and number < 100 :
+    print("the number is between 0 and 100")
+
+
+
+
+
+
+
+8. Write the Python code that prints the data types of the variables a = 5.0 and b = "Hello".
+A is float B is string 
+
+a = 5.0 
+b = "Hello"
+print(type(a))
+print(type(b))
+
+
+9. Write the algorithm of the program that takes the user's first and last name separately from the keyboard and combines them to print them on the screen as "Welcome Name Surname".
+
+Ask the user to enter their name
+Ask the user to enter their surname
+Concatenate both the name and surname inside print statement 
+
+name = input(“What is your name?”)
+surname = input(“what is your second name?”)
+print(“Welcome + “ ” + name + “ “ + surname)
+
+
+
+
+
+
+
+10.Draw the flowchart for the program whose algorithm you wrote in the previous question. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11.  What is the output of the following code?
+
+weather = "sunny"
+temp = 25
+
+if temp > 20 and (weather == "sunny" or weather == "cloudy"):
+    print(" good day ")
+else:
+    print("stay home because weather is cloudy")
+
+good day
+
+
+
+
+
+12.There is an error in the code below. Please correct the code and write the correct one.
+
+password = "pw123"
+if password == "pw123":
+    print("Succesfull")
+
+Double ==
+
+
+
+
+13. In a traffic light program, place the if, elif, and else keywords in the appropriate places according to the color variable.
+
+color = "yellow"
+
+if color == "red":
+    print("stop")
+elif color == "green":
+    print("go")
+else:
+    print("get ready")
+
+
+14.A gym offers a "Youth Package" for those under 18, an "Adult Package" for those between 18 and 40, and a "Senior Package" for those over 40. Write the algorithm for the program that asks the user for their age and displays the appropriate package on the screen.
+
+
+Ask the user their age
+If the age is less than 18 print youth package
+Else if the age is greater than 18 and less than 40 print Adult package
+Else the age is greater than 40 print Senior package
+
+
+
+
+
+
+
+15. Draw the flowchart for the program whose algorithm you wrote in the previous question.
+
